@@ -10,4 +10,5 @@ urlpatterns = [
         views.dispositivos_zona,
         name="por_zona",
     ),
+    path("dispositivos/", views.catalogo, name="catalogo"),
 ]
